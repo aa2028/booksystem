@@ -21,9 +21,6 @@ import java.util.List;
 
 @SuppressWarnings("all")
 public class BookDaoImpl extends BaseDao implements BookDao {
-    public void init(){
-        System.out.println("测试");
-    }
     
     /**
      * 查询book表的总记录数
