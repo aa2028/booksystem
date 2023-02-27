@@ -21,6 +21,9 @@ import java.util.List;
 
 @SuppressWarnings("all")
 public class BookDaoImpl extends BaseDao implements BookDao {
+    public void show(int i){
+		System.out.println("显示方法....");
+	}
     
 	public void show(){
 		System.out.println("显示方法");
